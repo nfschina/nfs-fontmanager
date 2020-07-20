@@ -1,0 +1,38 @@
+nfs-fontmanager (1.0.10) sv3.1; urgency=medium
+
+  * 0355244 搜索功能优化，直接列出所有匹配结果，保留点击搜索按钮轮询功能
+  * 0355245 通用版本添加允许用户卸载系统字体功能，提权确认后可卸载
+
+ -- hanxiaofeng <hanxiaofeng@cpu-os.ac.cn>  Mon, 30 Mar 2020 17:04:27 +0800
+nfs-fontmanager (1.0.9) sv3.1; urgency=medium
+
+  * fc.py 判断字体路径是否为link时对含有中文字符串报错退出，需先对字符串进行转码
+
+ -- hanxiaofeng <hanxiaofeng@cpu-os.ac.cn>  Fri, 27 Mar 2020 16:09:27 +0800
+nfs-fontmanager (1.0.8) sv3.1; urgency=medium
+
+  * main.py调用打开文件窗口参数修改合入
+
+ -- hanxiaofeng <hanxiaofeng@cpu-os.ac.cn>  Tue, 14 Dec 2020 10:49:27 +0800
+nfs-fontmanager (1.0.6) sv3.1; urgency=medium
+
+  *  优化UI界面，调整界面布局
+
+ -- hanxiaofeng <hanxiaofeng@cpu-os.ac.cn>  Mon, 13 Jan 2020 19:46:27 +0800
+nfs-fontmanager (1.0.4) sv3.1; urgency=medium
+
+  * 增加：双击字体文件弹出安装界面功能
+  * 修改版本至1.0.4,按入库前已出版本顺次排序
+
+ -- CDOS Support Team <support_os@cpu-os.ac.cn>  Tue, 24 Dec 2019 18:46:27 +0800
+nfs-fontmanager (1.0.1) sv3.1; urgency=medium
+
+  * 替换源码
+  * 添加/usr/bin/nfs-fontmanager
+
+ -- CDOS Support Team <support_os@cpu-os.ac.cn>  Fir, 20 Dec 2019 17:46:27 +0800
+nfs-fontmanager (1.0.0) sv3.1; urgency=medium
+
+  * font manager.
+
+ -- CDOS Support Team <support_os@cpu-os.ac.cn>  Thu, 31 Oct 2019 17:46:27 +0800

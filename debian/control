@@ -1,0 +1,21 @@
+Source: nfs-fontmanager
+Section: utils
+Architecture: amd64
+Maintainer:guoliang@nfschina.com
+Description:nfs-fontmanager
+
+Package: nfs-fontmanager
+Architecture: amd64
+Depends: libqt5clucene5,
+        libqt5designer5,
+        libqt5help5,
+        nfs-fontmanager,
+        python-dateutil,
+        python-pandas,
+        python-pandas-lib,
+        python-pathlib,
+        python-pyqt5,
+        python-tz
+Description: <font manager>
+ <This is font manager>
+

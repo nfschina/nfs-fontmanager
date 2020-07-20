@@ -1,0 +1,24 @@
+[Desktop Entry]
+
+Name=nfsFontManager
+Name[zh_CN]=方德字体管理器
+Name[zh_TW]=方德字体管理器
+
+Exec=/usr/bin/nfs-fontmanager %f
+
+Icon= /usr/share/nfs-fontmanager/icons/fmLogo.png
+
+Info="Spark"
+
+Categories=Application;System;
+
+MimeType=application/x-font-ttf;application/vnd.oasis.opendocument.formula;
+
+Comment="nfs-fontmanager desktop"
+
+Terminal=false
+
+Type=Application
+
+StartupNotify=true
+
